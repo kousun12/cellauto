@@ -6,13 +6,13 @@ There are two classes: `Cell` and `World`. Cells describe a rule set for a parti
 
 To describe a cell's transition rules in the simplest case, you must implement the abstract method:
 
-```flow js
+```javascript
 step(number: number): State
 ```
 
 Cells have a generic `render` method that you will likely want to implement to render in some way, somewhere.
 
-```flow js
+```javascript
 static render(value: State): R
 ```
 
@@ -20,7 +20,7 @@ If you'd like to make more interesting cells, it's useful to break out of 'pure'
 
 The `World` api lets you compose an arrangement of cells. By default cells are in VN lattice (8 neighbors). Composition follows a fluent api, e.g:
 
-```flow js
+```javascript
 // An iterated prisoner's dilemma world generator
 const Prisoners = (width: number, height: number) => {
   return new World({ width, height })
@@ -52,7 +52,7 @@ The [examples](examples) directory has some sample cells and worlds, including t
 
 While your render can just be numbers that you print out to a console, it's likely that you want to render in some graphics paradigm. In the unlikely case that you have some strange reason to use `three.js`: [this gist](https://gist.github.com/kousun12/3fa99e0700261a4d8abf8045fdca8800) is a sample of a world renderer that also exposes a fluent api:
 
-```flow js
+```javascript
 new CellAutomata(Prisoners(110, 70), { maxSteps: 1000, cellSize: 8 }).noBorder().start();
 ```
 
