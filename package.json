@@ -1,0 +1,24 @@
+{
+  "name": "cellauto",
+  "version": "1.0.0",
+  "description": "a framework for describing and running cellular automata",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kousun12/cellauto.git"
+  },
+  "keywords": [
+    "cellular",
+    "automata",
+    "wolfram"
+  ],
+  "author": "kousun12",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kousun12/cellauto/issues"
+  },
+  "homepage": "https://github.com/kousun12/cellauto#readme"
+}
