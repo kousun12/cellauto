@@ -1,4 +1,4 @@
-#### cellauto
+## cellauto
 
 This is a small framework to describe and run cellular automata.
 
