@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/kousun12/cellauto/issues"
   },
-  "homepage": "https://github.com/kousun12/cellauto#readme"
+  "homepage": "https://github.com/kousun12/cellauto#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.91.0"
+  }
 }
