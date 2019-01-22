@@ -4,6 +4,10 @@ This is a small framework to describe and run cellular automata.
 
 hosted examples:
 
+[ALL Examples](https://www.robcheung.com/latent/ca)
+
+specifics
+
 [prisoners](https://www.robcheung.com/latent/ca/prisoners)<br>
 [rule n=30](https://www.robcheung.com/latent/ca/1D/30)<br>
 [caves](https://www.robcheung.com/latent/ca/caves)<br>
