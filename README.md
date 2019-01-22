@@ -2,6 +2,18 @@
 
 This is a small framework to describe and run cellular automata.
 
+hosted examples:
+
+[prisoners](https://www.robcheung.com/latent/ca/prisoners)<br>
+[rule n=30](https://www.robcheung.com/latent/ca/1D/30)<br>
+[caves](https://www.robcheung.com/latent/ca/caves)<br>
+[forest](https://www.robcheung.com/latent/ca/forest)<br>
+[cycle](https://www.robcheung.com/latent/ca/cycle)<br>
+[traffic](https://www.robcheung.com/latent/ca/traffic)
+
+
+### basic docs
+
 There are two classes: `Cell` and `World`. Cells describe a rule set for a particular kind of member. Cells are virtually placed within a world, by default in a von-neuman neighborhood.  
 
 To describe a cell's transition rules in the simplest case, you must implement the abstract method:
@@ -55,15 +67,3 @@ While your render can just be numbers that you print out to a console, it's like
 ```javascript
 new CellAutomata(Prisoners(110, 70), { maxSteps: 1000, cellSize: 8 }).noBorder().start();
 ```
-
-Live examples are here:
-
-[prisoners](https://www.robcheung.com/latent/ca/prisoners)<br>
-[rule n=30](https://www.robcheung.com/latent/ca/1D/30)<br>
-[caves](https://www.robcheung.com/latent/ca/caves)<br>
-[forest](https://www.robcheung.com/latent/ca/forest)<br>
-[cycle](https://www.robcheung.com/latent/ca/cycle)<br>
-[traffic](https://www.robcheung.com/latent/ca/traffic)
-
-
-dedicated to stephen 👾
