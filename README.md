@@ -1,12 +1,14 @@
 ## cellauto
 
-This is a small framework to describe and run cellular automata.
+<p align="center">This is a small framework to describe and run cellular automata</p>
 
-hosted examples:
+<p align="center"><img src="1d105.gif" /><p>
 
-[ALL Examples](https://www.robcheung.com/latent/ca)
+### hosted examples:
 
-specifics
+[all examples](https://www.robcheung.com/latent/ca)
+
+<hr />
 
 [prisoners](https://www.robcheung.com/latent/ca/prisoners)<br>
 [rule n=30](https://www.robcheung.com/latent/ca/1D/30)<br>
