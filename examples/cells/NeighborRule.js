@@ -1,6 +1,6 @@
 // @flow
 import Cell from './Base';
-import { get } from 'lodash';
+import { get, reverse } from 'lodash';
 import type { RGBA } from 'util/types';
 
 type O = { state: boolean };
@@ -10,7 +10,7 @@ const toBin8 = (rule: number) => {
   if (bin.length < 8) {
     bin.unshift(...[...new Array(8 - bin.length)].map(() => 0));
   }
-  return bin;
+  return reverse(bin);
 };
 
 export default (rule: number) => {
