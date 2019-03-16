@@ -4,19 +4,9 @@
 
 <p align="center"><img src="1d105.gif" /><p>
 
-### hosted examples:
+### demos:
 
-[all examples](https://www.robcheung.com/latent/ca)
-
-<hr />
-
-[prisoners](https://www.robcheung.com/latent/ca/prisoners)<br>
-[rule n=30](https://www.robcheung.com/latent/ca/1D/30)<br>
-[caves](https://www.robcheung.com/latent/ca/caves)<br>
-[forest](https://www.robcheung.com/latent/ca/forest)<br>
-[cycle](https://www.robcheung.com/latent/ca/cycle)<br>
-[traffic](https://www.robcheung.com/latent/ca/traffic)
-
+[project demo / description page](https://www.robcheung.com/latent/ca)
 
 ### basic docs
 
