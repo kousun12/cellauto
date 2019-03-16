@@ -4,7 +4,7 @@
 
 <p align="center"><img src="1d105.gif" /><p>
 
-### demos:
+### demos
 
 [project demo / description page](https://www.robcheung.com/latent/ca)
 
